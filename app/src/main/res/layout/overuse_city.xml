@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:background="@drawable/bg_city_manage_round_5"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/layout_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/overuse_city_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false"
+            android:textSize="24dp"
+            android:textColor="@color/white"
+            android:text="山阳区" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/current_city"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/selected"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/layout_city"
+        android:layout_marginLeft="10dp"
+        android:visibility="gone"
+        tools:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:textColor="@color/white"
+        android:textSize="45dp"
+        android:includeFontPadding="false"
+        android:text="24˚C" />
+
+</RelativeLayout>
