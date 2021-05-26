@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/bing_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/weather_bg"
+        android:scaleType="centerCrop" />
+
+    <view class="com.example.myapplication.WeatherActivity$WeatherRefreshLayout"
+        android:id="@+id/swipe_refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <view class="com.example.myapplication.WeatherActivity$WeatherScrollView"
+            android:id="@+id/weather_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:overScrollMode="never"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fitsSystemWindows="true"
+                android:orientation="vertical">
+
+                <include layout="@layout/title_view_v2" />
+
+                <include layout="@layout/now" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/hours_forecast"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="40dp"
+                    android:paddingBottom="40dp"
+                    android:background="#8000" />
+
+                <include layout="@layout/forecast" />
+
+                <include layout="@layout/aqi" />
+
+                <include layout="@layout/suggestion" />
+
+            </LinearLayout>
+
+        </view>
+
+    </view>
+
+</FrameLayout>

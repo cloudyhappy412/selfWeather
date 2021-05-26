@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">天气</string>
+
+    <string name="w100">&#xe625;</string>
+    <string name="w101">&#xe627;</string>
+    <string name="w104">&#xe628;</string>
+    <string name="w300">&#xe629;</string>
+    <string name="w310">&#xe62a;</string>
+    <string name="w311">&#xe62b;</string>
+    <string name="w304">&#xe62c;</string>
+    <string name="w312">&#xe62d;</string>
+    <string name="w305">&#xe62e;</string>
+    <string name="w307">&#xe62f;</string>
+    <string name="w302">&#xe630;</string>
+    <string name="w404">&#xe631;</string>
+    <string name="w306">&#xe632;</string>
+    <string name="w402">&#xe633;</string>
+    <string name="w400">&#xe634;</string>
+    <string name="w401">&#xe635;</string>
+    <string name="w407">&#xe636;</string>
+    <string name="w403">&#xe637;</string>
+    <string name="w508">&#xe638;</string>
+    <string name="w504">&#xe639;</string>
+    <string name="w501">&#xe63a;</string>
+    <string name="w507">&#xe63b;</string>
+    <string name="w313">&#xe63c;</string>
+    <string name="w503">&#xe63d;</string>
+    <string name="w502">&#xe63e;</string>
+
+    <color name="LightSkyBlue">#87CEEB</color>
+</resources>

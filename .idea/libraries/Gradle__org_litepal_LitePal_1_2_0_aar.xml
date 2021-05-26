@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: org.litepal:LitePal:1.2.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e028ec745a7fa5008bfb9459356aac1c/jetified-LitePal-1.2.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e028ec745a7fa5008bfb9459356aac1c/jetified-LitePal-1.2.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e028ec745a7fa5008bfb9459356aac1c/jetified-LitePal-1.2.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.litepal/LitePal/1.2.0/d8c3bce79445486cc586b06a8a45d1e8f249e3f7/LitePal-1.2.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.litepal/LitePal/1.2.0/7a06cee0b7b2d7c23ae78ab26e84e791601ff70d/LitePal-1.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

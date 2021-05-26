@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/white" >
+
+        <EditText
+            android:id="@+id/edit_text"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:singleLine="true"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_margin="5dp"
+            android:drawableLeft="@drawable/search"
+            android:drawablePadding="4dp"
+            android:text="焦作"
+            android:hint="请输入城市名"
+            android:textColorHint="@color/white"
+            android:textColor="@color/black"
+            android:background="@drawable/bg_rectangle_round10"
+            android:textSize="20dp"
+            android:imeOptions="actionSearch" />
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white" />
+
+</LinearLayout>
